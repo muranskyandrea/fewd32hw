@@ -17,6 +17,13 @@ body {
 a {
 	text-decoration: none;
 	color: #D00;
+	-webkit-transition: all 300ms;
+	
+}
+
+a:hover {
+	color: #A00;
+
 }
 
 .body-wrapper{
@@ -29,6 +36,7 @@ a {
 	display: inline;
 	margin-right: 0.5em;
 	font-weight: 300;
+	-webkit-transition: all 300ms;
 }
 
 .tagline{
@@ -50,7 +58,9 @@ ul, h1{
 img{
 	max-width: 100%;
 	margin: 10px 0;
+	display: block;
 }
+
 .main-nav li{
 	width: 160px;
 	float: left;
@@ -66,10 +76,12 @@ img{
 	text-align: center;
 	font-weight: 300;
 	-webkit-transition: all 300ms;
+	
 }
 
 .main-nav a:hover {
 	background: #A00;
+
 }
 
 .body-wrapper{
@@ -77,9 +89,15 @@ img{
 	margin: 0 auto;
 }
 
+.middle-div{
+	margin-top: 54px;
+}
+
 article{
 	border-bottom: 1px solid #DDD;
-	margin-top: 54px;
+	padding-bottom: 27px;
+	margin-bottom: 54px;
+	
 }
 
 .main p:first-letter{
@@ -101,6 +119,10 @@ article{
 	color: black;
 }
 
+.article-title a:hover{
+	color: #D00;
+}
+
 .article-title a{
 	color:inherit;
 }
@@ -110,6 +132,7 @@ article{
 	line-height:1.5;
 	color: #444;
 	font-weight: 300;
+
 }
 
 .continues_link {
@@ -121,10 +144,16 @@ article{
 aside{
 	float:right;
 	width: 279px;
+	padding-top:40px;
+}
+
+aside ul{
+	padding-left: 40px;
 }
 
 .module {
 	color:#888;
+	padding: 20px 0;
 }
 
 .ad{
@@ -140,11 +169,12 @@ footer{
 footer li{
 	float:left;
 	list-style: none;
-	padding-left: 4px;
+	
 }
 
 footer ul li:after {
-    content: " | ";
+    content: " |  ";
+    padding-right: 3px;
 }
 
 footer ul li:last-child:after {
