@@ -1,0 +1,13 @@
+body{
+	margin: 0 auto;
+}
+
+.box{
+
+	border: solid 10px pink;
+	width: 200px;
+	height: 200px;
+	margin: 20px 200px;
+	float: left;
+
+}

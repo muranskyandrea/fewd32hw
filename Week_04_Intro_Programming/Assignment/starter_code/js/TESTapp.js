@@ -42,7 +42,6 @@ jQuery('.readless').on('click',showLess);
   	
  	}
 
-  
 
 
 

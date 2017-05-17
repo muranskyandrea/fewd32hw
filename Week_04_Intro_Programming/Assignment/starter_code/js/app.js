@@ -17,8 +17,8 @@ $( document ).ready(function() {
   	 
   {
   	jQuery('#show-this-on-click').slideDown();
-  	jQuery('.test').slideDown();
-  	//jQuery('.readless').show();
+  	jQuery('.readmore').hide();
+  	jQuery('.readless').show();
   }
  
 jQuery('.readless').on('click',showLess);
@@ -26,7 +26,7 @@ jQuery('.readless').on('click',showLess);
   function showLess(){
  		
  		
- 		jQuery('.test').slideUp();
+ 		jQuery('.test').slideUp(400, );
  		jQuery('.readmore').show();
 
   	
